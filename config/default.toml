@@ -1,0 +1,16 @@
+# dedao-notebook 默认配置
+# 复制到 ~/.dedao-notebook/config.toml 并按需修改
+
+[dedao]
+# dedao-dl 二进制文件路径（留空则自动从 PATH 查找）
+binary_path = ""
+# 默认下载目录
+download_dir = "~/Downloads/dedao"
+# 默认下载格式: md, pdf, mp3
+default_format = "md"
+
+[notebooklm]
+# NotebookLM 认证文件路径（留空则使用默认路径）
+auth_file = ""
+# 默认笔记本名称（留空则每次提示）
+default_notebook = ""
